@@ -1,0 +1,27 @@
+{
+  "name": "web-component-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"snowpack dev",
+    "build":"snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarMC100/Web-Component-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarMC100/Web-Component-Example/issues"
+  },
+  "homepage": "https://github.com/EdgarMC100/Web-Component-Example#readme",
+  "dependencies": {
+    "@vanillawc/wc-bullet-chain": "^1.0.25"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  }
+}
